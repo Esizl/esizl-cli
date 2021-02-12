@@ -1,0 +1,22 @@
+{
+  "name": "esizl-cli",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "bin": {
+    "emit": "index.js"
+  },
+  "engines": {
+    "node": ">=12"
+  },
+  "scripts": {
+    "start": "node index.js"
+  },
+  "keywords": [
+    "esizl",
+    "version",
+    "template"
+  ],
+  "author": "esizl",
+  "license": "ISC"
+}
