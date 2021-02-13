@@ -1,4 +1,4 @@
- # emit-cli
+ # esizl-cli
  
  > A CLI tool to create template files for all languages and frameworks.
 
@@ -12,7 +12,7 @@
  Install and access anywhere.
  
  ```
- npm i emit-cli -g
+ npm i esizl-cli -g
  ```
  
 ## Help
@@ -31,17 +31,17 @@ emit -h
 * __To generate a simple file, use the following command.__
  
  ```
- emit [filetype]... [filename]... 
+ emit <filetype> <filename> 
  ```
  
  > Note: This command can & will overwrite existing files.
 
  For Example:
 
- Generate a file  `Unicorn.html` with:
+ Generate a file  `Cool.html` with:
  
  ```
- emit html Unicorn
+ emit html Cool
  ```
 
  > Note : default name is ```Index```  
@@ -49,7 +49,7 @@ emit -h
  * __To Generate a file for a framework.__
 
  ```
- emit [filetype]... [filename]... [framework]... 
+ emit <filetype> <filename> <framework> 
  ```
 
  For Example:
