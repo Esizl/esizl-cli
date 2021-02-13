@@ -1,4 +1,4 @@
- # esizl-cli
+ # esizlcli
  
  > A CLI tool to create template files for all languages and frameworks.
 
@@ -12,7 +12,7 @@
  Install and access anywhere.
  
  ```
- npm i esizl-cli -g
+ npm i esizlcli -g
  ```
  
 ## Help
