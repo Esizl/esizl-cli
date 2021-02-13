@@ -2,10 +2,9 @@
  
  > A CLI tool to create template files for all languages and frameworks.
 
-[![npm version](https://img.shields.io/npm/v/esizl-cli.svg?style=flat-square)](https://www.npmjs.org/package/esizl-cli)
-[![install size](https://packagephobia.now.sh/badge?p=esizl-cli)](https://packagephobia.now.sh/result?p=esizl-cli)
-[![npm downloads](https://img.shields.io/npm/dt/esizl-cli.svg?style=flat-square)](http://npm-stat.com/charts.html?package=esizl-cli)
-[Website](https://esizl.com)
+[![npm version](https://img.shields.io/npm/v/esizlcli.svg?style=flat-square)](https://www.npmjs.org/package/esizlcli)
+[![install size](https://packagephobia.now.sh/badge?p=esizlcli)](https://packagephobia.now.sh/result?p=esizlcli)
+[![npm downloads](https://img.shields.io/npm/dt/esizlcli.svg?style=flat-square)](http://npm-stat.com/charts.html?package=esizlcli)
 
 
  ## Installation
