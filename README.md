@@ -4,7 +4,7 @@
 
 [![npm version](https://img.shields.io/npm/v/esizlcli.svg?style=flat-square)](https://www.npmjs.org/package/esizlcli)
 [![install size](https://packagephobia.now.sh/badge?p=esizlcli)](https://packagephobia.now.sh/result?p=esizlcli)
-[![Support Server](https://img.shields.io/discord/783108952111579166.svg?color=7289da&logo=discord&style=flat-square)](https://discord.gg/vqBE6xE)
+[![Support Server](https://img.shields.io/discord/520075719603257345.svg?color=7289da&logo=discord&style=flat-square)](https://discord.gg/vqBE6xE)
 <!--- [![npm downloads](https://img.shields.io/npm/dt/esizlcli.svg?style=flat-square)](http://npm-stat.com/charts.html?package=esizlcli) -->
 
  ## Installation
