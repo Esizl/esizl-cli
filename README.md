@@ -2,9 +2,9 @@
  
  > A CLI tool to create template files for all languages and frameworks.
 
-[![npm version](https://img.shields.io/npm/v/emit-cli.svg?style=flat-square)](https://www.npmjs.org/package/emit-cli)
-[![install size](https://packagephobia.now.sh/badge?p=emit-cli)](https://packagephobia.now.sh/result?p=emit-cli)
-[![npm downloads](https://img.shields.io/npm/dt/emit-cli.svg?style=flat-square)](http://npm-stat.com/charts.html?package=emit-cli)
+[![npm version](https://img.shields.io/npm/v/esizl-cli.svg?style=flat-square)](https://www.npmjs.org/package/esizl-cli)
+[![install size](https://packagephobia.now.sh/badge?p=esizl-cli)](https://packagephobia.now.sh/result?p=esizl-cli)
+[![npm downloads](https://img.shields.io/npm/dt/esizl-cli.svg?style=flat-square)](http://npm-stat.com/charts.html?package=esizl-cli)
 
 
  ## Installation
