@@ -12,7 +12,7 @@ const fsWrite = (foo,bar,baz) => {
 
 // print error
 const filedError = () => {
-    console.log("Usage: emit [filetype]... [filename]... [framework]...")
+    console.log("Usage: emit <filetype> <filename> <framework>")
     console.log(" ")
     console.log("Try 'emit --help' to know more.")
 }
@@ -21,11 +21,11 @@ const fileHelp = () => {
     console.log("Hello! from `emit`- a command line cli ")
     console.log("I'm here to help you create new files.")
     console.log(" ")
-    console.log("> Usage: emit [filetype]... [filename]... [framework]...")
+    console.log("Usage: emit <filetype> <filename> <framework>")
     console.log("Note: filetype is the file extension")
     console.log(" ")
     console.log("filetypes that I can recognize are as follows.")
-    console.log("   [filetype]...   [About]")
+    console.log("   <filetype>   <About>")
     console.log("   html            - create a (.html) Html file.")
     console.log("   css             - create a (.css) Css file.")
     console.log("   js              - create a (.js) Javascript file.")
@@ -44,7 +44,7 @@ const fileHelp = () => {
     console.log("   pl              - create a (.pl) Perl file.")
     console.log("   pas             - create a (.pas) Pascal file.")
     console.log(" ")
-    console.log("[Frameworks]...")
+    console.log("<Frameworks>")
     console.log("   --rfce            - create a (.js) ReactJS file with .")
     console.log("   --rafc            - create a (.js) ReactJS file.")
     console.log("   --rafce           - create a (.js) ReactJS file.")
@@ -54,7 +54,7 @@ const fileHelp = () => {
     console.log("Note: If filename is not given, `Index` will be used as default.")
     console.log("      Existing files will be overwritten!!!")
     console.log(" ")
-    console.log("Report Issues at https://github.com/Lalisfeed/emit-cli/issues/new.")
+    console.log("Report Issues at https://github.com/Esizl/esizl-cli/issues/new.")
 }
 // All pages
 
@@ -103,7 +103,7 @@ const htmlPage = (argx) => {
     <title>${argx}</title>
 </head>
 <body>
-    
+    <h1>${argx}</h1>
 </body>
 </html>
 `
@@ -111,7 +111,7 @@ const htmlPage = (argx) => {
 
 //  css page .css
 const cssPage = (argx) => {
-    return `*{
+    return `* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -120,11 +120,12 @@ const cssPage = (argx) => {
 }
 
 const jsPage = (argx) => {
-    return `console.log("${argx}");
-const func = (x) => {
-    return x;
+    return `console.log('${argx}');
+const function = (x) => {
+  return x;
 }
-export default func;
+
+export default function;
 `
 }
 
@@ -141,7 +142,7 @@ const pjsonPage = (argx) => {
   },
   "keywords": [],
   "author": "",
-  "license": "MIT"
+  "license": "ISC"
 }
 `
 }
@@ -336,7 +337,7 @@ if (args.length == 1 || args.length == 2){
     else if (args[0] === "js"){
         fsWrite(args[0], args[1], jsPage(args[1]))
     }
-    else if (args[0] === "pjson"){
+    else if (args[0] === "pckjson"){
         args[1] = "package"
         fsWrite(args[0], args[1], pjsonPage(args[1]))
     }
